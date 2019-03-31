@@ -1,0 +1,120 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	color: #555;
+	font: normal 10pt Arial,Helvetica,sans-serif;
+	background: #EFEFEF;
+}
+
+#page{margin:3px auto;
+	border:1px solid #ccc;}
+
+#mainmenu{background:#60A422;
+	padding:0px 10px;
+	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	color:white;
+	}
+
+#mainmenu ul{padding:0px;}
+
+#mainmenu ul li:hover a{
+	color:black;
+	}
+	
+#mainmenu ul li{position:relative;
+	padding:0px 0px;
+	display:inline-block;}
+#mainmenu ul li a{padding:8px 10px;
+	display:inline-block;
+	font-size:15px;
+	text-decoration-line:none;
+	color:white;
+	}
+#mainmenu ul li a:hover{background:#BFDBA6;
+	color:#000;}
+#mainmenu ul li.active a{background:#0B6711;
+	color:#fff;}
+	
+#mainmenu ul li ul{position:absolute;
+	top:37px;
+	left:0;
+	display:none;
+	background: rgb(255,255,255);
+	width:200px;
+}
+#mainmenu ul li:hover ul{display:block;}
+
+.first .table td {
+    border: none;
+    font-size: 14.5px;
+    color: #333;
+}
+.table{
+	display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+	white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+    font-variant: normal;
+}
+
+td{
+	display: table-cell;
+    vertical-align: inherit;
+}
+	tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+#mainmenu ul li:hover ul li a:hover{background:#0B6711;
+	color:#fff;}	
+
+#content{padding:0;}
+
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block h4{
+  position: absolute;
+  text-align:center;
+  bottom: 550px;
+  font-size:40px;
+  right: 400px;
+  color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size:40px;
+}
+.text-block p{
+  position: absolute;
+  text-align:center;
+  bottom: 200px;
+  font-size:40px;
+  right: 390px;
+  color: black;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size:30px;
+}
+
+.tablest th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.tablest td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+}
